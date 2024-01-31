@@ -3,7 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>RepoSpy</title>
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <script defer type="module" src="src/js/script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section>
+        <form class="search">
+          <div>
+            <input class="search-box" type="text" placeholder="Search user" />
+          </div>
+          <div class="icon-search-container">
+            <img
+              class="icon-search"
+              src="src/assets/icons/icon-search.svg"
+              alt="search"
+            />
+            <div class="tooltip">search</div>
+          </div>
+        </form>
+      </section>
+      <article class="github-info">
+        <div>Profile Picture</div>
+        <div>Name or LoginName</div>
+        <div>Date Joined</div>
+        <div>Followers</div>
+        <div>Public Repos</div>
+        <div>Starred Repos</div>
+      </article>
+    </main>
+  </body>
 </html>
+
+<!-- 
+    Profile Picture
+    Name(Can be null) or LoginName
+    Location  - Can be Null
+    Followers
+    Number og Public Repositories
+    Date of joining Github
+    Number of Starred Repos
+
+    Next Page show all Public Repos with Pagination
+-->
+
+<!--
+    Search Text Field
+    Search Button
+    Display Results
+    Allow click on num of public repos
+    Navigate to repos 
+    Pagination in repos with 10 repos per page 
+
+    Repos -
+    Repo Name
+    Repo Description if any
+    Repo Main topics
+-->

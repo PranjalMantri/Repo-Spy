@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+.search {
+  display: flex;
+  margin: 4rem 0 2rem 0;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.icon-search {
+  width: 1rem;
+}
+
+.icon-search-container {
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-left: -1px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+}
+
+.search-box {
+  width: 17rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  padding: 0.1rem 0 0 0.6rem;
+  border: 1px solid #ccc;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: #e0e0e0;
+  font-weight: 300;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-box:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  color: rgba(0, 0, 0, 0.731);
+}
+
+.tooltip {
+  position: absolute;
+  background-color: gray;
+  padding: 0.3rem;
+  color: white;
+  bottom: -2.4rem;
+  display: none;
+}
+
+.icon-search-container:hover .tooltip {
+  display: block;
+}
+
+.github-info {
+  height: 30rem;
+  width: 22rem;
+  border-radius: 1rem;
+  background-color: green;
+}
