@@ -1,0 +1,37 @@
+.github-info {
+  height: 25rem;
+  width: 20rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.494);
+  padding: 2rem;
+}
+
+.personal-info {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.avatar {
+  width: 7rem;
+  padding: 0 1rem 0 0;
+  cursor: pointer;
+}
+
+.username {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.621);
+}
+
+.additional-info {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.621);
+  margin: 0 0 0.5rem 0;
+}
+
+.followers,
+.following,
+.public-repos,
+.starred-repos {
+  cursor: pointer;
+}

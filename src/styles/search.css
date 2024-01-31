@@ -1,14 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-
-main {
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-* {
-  font-family: "Roboto", sans-serif;
-}
-.search {
+
+.searchForm {
   display: flex;
   margin: 4rem 0 2rem 0;
   justify-content: center;
@@ -26,8 +22,8 @@ main {
   align-items: center;
   border: 1px solid #ccc;
   margin-left: -1px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   position: relative;
 }
 
@@ -38,8 +34,8 @@ main {
   font-family: "Roboto", sans-serif;
   padding: 0.1rem 0 0 0.6rem;
   border: 1px solid #ccc;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   color: #e0e0e0;
   font-weight: 300;
   transition: all 0.3s ease-in-out;
@@ -63,11 +59,4 @@ main {
 
 .icon-search-container:hover .tooltip {
   display: block;
-}
-
-.github-info {
-  height: 30rem;
-  width: 22rem;
-  border-radius: 1rem;
-  background-color: green;
 }

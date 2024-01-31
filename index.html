@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RepoSpy</title>
-    <link rel="stylesheet" href="src/styles/style.css" />
-    <script defer type="module" src="src/js/script.js"></script>
+    <link rel="stylesheet" href="src/styles/general.css" />
+    <link rel="stylesheet" href="src/styles/search.css" />
+    <link rel="stylesheet" href="src/styles/userInfo.css" />
+    <script defer type="module" src="src/js/controller.js"></script>
   </head>
   <body>
-    <main>
+    <main class="home">
       <section>
-        <form class="search">
-          <div>
-            <input class="search-box" type="text" placeholder="Search user" />
-          </div>
+        <form class="searchForm">
           <div class="icon-search-container">
             <img
               class="icon-search"
@@ -22,16 +21,27 @@
             />
             <div class="tooltip">search</div>
           </div>
+          <div>
+            <input class="search-box" type="text" placeholder="Search user" />
+          </div>
         </form>
       </section>
-      <article class="github-info">
-        <div>Profile Picture</div>
-        <div>Name or LoginName</div>
-        <div>Date Joined</div>
-        <div>Followers</div>
-        <div>Public Repos</div>
-        <div>Starred Repos</div>
-      </article>
+
+      <!-- <article class="github-info">
+        <div class="personal-info">
+          <img
+            class="avatar"
+            src="src/assets/images/github-avatar.png"
+            alt="avatar"
+          />
+          <div class="username">Pranjal Mantri</div>
+        </div>
+        <div class="additional-info">Date Joined: 11/11/11</div>
+        <div class="additional-info followers">Followers: 11</div>
+        <div class="additional-info following">Following: 11</div>
+        <div class="additional-info public-repos">Public Repositories: 11</div>
+        <div class="additional-info starred-repos">Starred Repositories: 11</div>
+      </article> -->
     </main>
   </body>
 </html>
