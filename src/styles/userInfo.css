@@ -13,8 +13,9 @@
 
 .avatar {
   width: 7rem;
-  padding: 0 1rem 0 0;
+  margin-right: 1rem;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .username {
@@ -33,5 +34,31 @@
 .following,
 .public-repos,
 .starred-repos {
+  cursor: pointer;
+}
+
+.error {
+  display: none;
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.621);
+}
+
+.loading-circle {
+  animation: rotate 1.5s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.remove-default {
+  text-decoration: none;
+  color: inherit;
   cursor: pointer;
 }
